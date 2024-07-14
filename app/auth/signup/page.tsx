@@ -12,7 +12,7 @@ const [password , setPassword] = useState("");
     return (
       <div className="flex flex-col justify-center h-screen">
         <div className=" flex justify-center text "> 
-          <text className="h-7 w-15 ">Sign tf up</text>
+          <text className="h-7 w-15 ">Sign up</text>
         </div>
         <div className=" flex justify-center p-3 m-2 border-r-gray-900">
         <input onChange={(e)=>{setEmail(e.target.value)}} className=" rounded-md border-r-gray-900" type="text" placeholder="Email"></input>
